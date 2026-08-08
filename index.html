@@ -86,3 +86,10 @@ body{font-family:'Noto Sans SC',sans-serif;background:var(--bg);color:var(--text
 .msg{display:flex;margin-bottom:14px;animation:msgIn 0.35s ease;}
 @keyframes msgIn{from{opacity:0;transform:translateY(12px);}to{opacity:1;transform:translateY(0);}}
 .msg-av
+# 生成 HTML
+node build.js
+
+# 或启动本地预览
+npm install
+npm run start
+# 访问 http://localhost:3000/priestess.html
